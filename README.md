@@ -25,7 +25,8 @@ The device comprises two key components. The first, designed for wall-mounting, 
 Simultaneously, using ATMEGA328P-PU microcontroller chips, the first component processes data, triggers alerts, and transmits information wirelessly. The second component, also equipped with the same microcontroller, receives and promptly displays the measured height for easy reference. Furthermore, the Arduino code utilized in both the transmitter and the receiver is accessible within the project repository for reference and future development.
 
 <p align="center">
-<img src="Media/devic.png" alt="Measure-Up device" width="500"/>
+<img src="Media/device_1.jpg" alt="Measure-Up device" width="200"/>
+<img src="Media/device_2.jpg" alt="Measure-Up device" width="200"/>
 </p>
 
 ## 2. [Device Architecture](#device-architecture) <a name="device-architecture"></a>
