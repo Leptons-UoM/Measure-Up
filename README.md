@@ -3,9 +3,6 @@
 1. [Introduction](#introduction)
 2. [Device Architecture](#device-architecture)
 3. [Design](#design)
-   1. [Load Cells](#load-cells)
-   2. [Sensor Configuration](#sensor-configuration)
-   3. [Control Unit (ESP32)](#control-unit-esp32)
 
 ## 1. Introduction <a name="introduction"></a>
 
