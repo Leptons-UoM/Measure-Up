@@ -9,7 +9,7 @@
 Measuring human height accurately is important in many fields, including healthcare, sports, and research. Moreover, height measurement is an important metric for paediatricians and their patients because height changes so rapidly during childhood and can indicate health concerns if it deviates from growth curves. The goal of this project was to create a digital version of the traditional physical height-measurement devices (also known as stadiometers) currently in use in hospitals and clinics. This device would be more portable while still maintaining the accuracy and speed of current devices.
 
 <p align="center">
-<img src="Media/device_1.jpg" alt="Measure-Up device" width="200"/>
+<img src="Media/device_1.jpg" alt="Measure-Up device" width="350"/>
 </p>
 
 ### 1.1 Problem Description
@@ -29,7 +29,7 @@ The device comprises two key components. The first, designed for wall-mounting, 
 Simultaneously, using ATMEGA328P-PU microcontroller chips, the first component processes data, triggers alerts, and transmits information wirelessly. The second component, also equipped with the same microcontroller, receives and promptly displays the measured height for easy reference. Furthermore, the Arduino code utilized in both the transmitter and the receiver is accessible within the project repository for reference and future development.
 
 <p align="center">
-<img src="Media/device_2.jpg" alt="Measure-Up device" width="250"/>
+<img src="Media/device_2.jpg" alt="Measure-Up device" width="400"/>
 </p>
 
 ## 2. [Device Architecture](#device-architecture) <a name="device-architecture"></a>
