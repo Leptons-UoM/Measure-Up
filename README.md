@@ -58,3 +58,10 @@ The microcontroller unit controls all device functions, including height measure
 
 ## 3. Design <a name="design"></a>
 
+### 3.1 Enclosure Design
+
+<p align="center">
+<img src="Media/enclosure_1.jpg" alt="Measure-Up device" width="250"/>
+<img src="Media/enclosure_2.jpg" alt="Measure-Up device" width="250"/>
+</p>
+
