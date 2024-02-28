@@ -32,28 +32,28 @@ Simultaneously, using ATMEGA328P-PU microcontroller chips, the first component p
 <img src="Media/device_2.jpg" alt="Measure-Up device" width="400"/>
 </p>
 
-## 2. [Device Architecture](#device-architecture) <a name="device-architecture"></a>
+## 2. Device Architecture <a name="device-architecture"></a>
 
 <p align="center">
 <img src="Media/product_architecture.png" alt="Device Architecture" width="400"/>
 </p>
 
-### 3.1 Control Panel: 
+### 2.1 Control Panel: 
 The device's control panel includes two buttons: one for powering on the device and the other for unit selection that allows users to switch between measuring units.
 
-### 3.2 Power Supply Unit:
+### 2.2 Power Supply Unit:
 The device is powered by a 12V power supply that is required to operate the ultrasonic sensor, gyroscope sensor, LED display, and microcontroller. The power supply is obtained by using two rechargeable 6V batteries.
 
-### 3.3 Display: 
+### 2.3 Display: 
 The device's display is a 16x2 LCD display that displays the measured height in the selected unit.
 
-### 3.4 HC - SR04 Sensor:
+### 2.4 HC - SR04 Sensor:
 The device uses an HC - SR04 sensor to measure the height between the device and the floor.
 
-### 3.5 Inertial Measurement Unit: 
+### 2.5 Inertial Measurement Unit: 
 The device also features a gyroscope sensor that is used to measure the orientation of the device and calculate the perpendicular height using the data from the HC-SR04 sensor.
 
-### 3.6 Microcontroller Unit: 
+### 2.6 Microcontroller Unit: 
 The microcontroller unit controls all device functions, including height measurement and unit selection.
 
 ## 3. Design <a name="design"></a>
