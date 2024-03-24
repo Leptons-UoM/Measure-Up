@@ -56,11 +56,6 @@ bool heights_are_valid(){
       return false;
     }
   }
-
-  //Serial.print("max - ");
-  //Serial.println(max);
-  //Serial.print("min - ");
-  //Serial.println(min);
  
   if (max - min >= max_tolerence) {
     return false;
@@ -98,6 +93,7 @@ void setup() {
     delay(400);
   }
 
+  //height to the ground surface
   len_ground = ground;
 
   //buzzering trice
@@ -123,14 +119,9 @@ void loop() {
   radio.write(&destination, sizeof(destination));
   delay(1000);
 
-  // methanin uda chathurage code eka
 
-  //
   len_head = ping_ultrasonic();
-  //Serial.print(len_head);
-  //Serial.print(" - ");
   height = len_ground - len_head;
-  //Serial.println(height);
 
   //error checking part
   if (height>min_height && height<max_height){
@@ -143,8 +134,7 @@ void loop() {
     human_detect_count = 0;
     sum = 0;
   }
-  //Serial.print("human -  ");
-  //Serial.println(human_detect_count);
+
 
   if (human_detect_count == n){
     mean_height = sum/n;
